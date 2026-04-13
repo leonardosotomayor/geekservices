@@ -16,7 +16,7 @@ The original AI-generated layout contained generic and invented content such as 
 
 - real service positioning
 - local-business audience fit
-- practical AI and automation offers
+- practical website, marketing, and systems offers
 - a clear contact path
 - launch-friendly SEO basics like `robots.txt` and `sitemap.xml`
 

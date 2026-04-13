@@ -15,12 +15,12 @@ Launch a real, professional website for Geek Services LLC that:
 
 ## Business Positioning
 
-Geek Services LLC is an AI-powered digital marketing and business automation service for small businesses that need more visibility, better customer follow-up, and simpler systems.
+Geek Services LLC is a digital growth and business systems service for small businesses that need more visibility, better customer follow-up, and simpler ways to operate online.
 
 The strongest positioning from the older materials is:
 
 - local-first support for small businesses, especially around Yonkers and nearby markets
-- practical AI adoption, not hype
+- practical implementation, not hype
 - affordable and accessible help for businesses with limited time and technical resources
 - clear focus on growth, automation, and measurable outcomes
 
@@ -54,9 +54,9 @@ Strong-fit segments from the older files:
 
 These are the strongest service categories supported by the old business materials:
 
-1. AI-Powered Lead Generation
-2. AI Chatbots and Customer Support
-3. AI Content Creation
+1. Lead Generation and Inquiry Capture
+2. Chatbots and Customer Support
+3. Content and Messaging Support
 4. Analytics and Performance Tracking
 5. Website and Funnel Setup
 6. Simple Business Automation
@@ -79,7 +79,7 @@ Keep:
 
 - `geekservicesny.com` as the working domain direction
 - the local small-business focus
-- the AI-powered service model
+- the systems-first service model
 - the first-year goals of 10-15 clients and process building
 - the values: accessibility, transparency, innovation, community-focus, simplicity
 - the lead-gen and consultation-driven website approach
@@ -107,7 +107,7 @@ Remove or replace:
 
 The site should position Geek Services LLC as:
 
-"AI-powered marketing and automation support for local businesses that want more leads, faster follow-up, and a stronger online presence."
+"Website, messaging, and business systems support for local businesses that want more leads, faster follow-up, and a stronger online presence."
 
 This is stronger than a generic portfolio because it gives visitors a direct reason to hire the business.
 

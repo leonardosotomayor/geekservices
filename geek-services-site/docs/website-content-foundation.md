@@ -11,7 +11,7 @@ The website should answer these questions fast:
 
 ## Recommended Brand Message
 
-Geek Services LLC helps small businesses use AI, automation, and smarter digital marketing to get more leads, improve customer response, and build a stronger online presence.
+Geek Services LLC helps small businesses build a stronger online presence, improve customer response, and create clearer systems for lead generation, follow-up, and digital growth.
 
 ## Homepage Messaging Draft
 
@@ -19,11 +19,11 @@ Geek Services LLC helps small businesses use AI, automation, and smarter digital
 
 Headline:
 
-AI-powered marketing and automation for local businesses ready to grow.
+Websites, messaging, and practical systems for local businesses ready to grow.
 
 Subheadline:
 
-Geek Services LLC helps small businesses improve their online presence, capture more leads, automate customer follow-up, and make smarter marketing decisions without adding more chaos.
+Geek Services LLC helps small businesses improve their online presence, capture more leads, strengthen customer follow-up, and make smarter marketing decisions without adding more chaos.
 
 Primary CTA:
 
@@ -41,15 +41,15 @@ We work best with small businesses that are doing great work offline but need be
 
 ### Core Services
 
-#### AI-Powered Lead Generation
+#### Lead Generation and Inquiry Capture
 
 Capture more opportunities with stronger offers, lead magnets, contact flows, and follow-up systems.
 
-#### AI Chatbots and Customer Support
+#### Chatbots and Customer Support
 
 Answer common questions faster, improve response time, and reduce missed opportunities.
 
-#### AI Content Creation
+#### Content and Messaging Support
 
 Turn your ideas into social posts, promotional content, and website copy that is easier to maintain.
 
@@ -101,7 +101,7 @@ Avoid:
 
 - fake portfolio claims
 - inflated agency language
-- unexplained AI buzzwords
+- overused technology buzzwords
 - enterprise jargon
 
 ## Visual Direction
@@ -113,7 +113,7 @@ Recommended direction:
 - more "smart local growth partner"
 - strong typography and contrast
 - simple section structure
-- clean visual cues around automation, growth, and clarity
+- clean visual cues around growth, clarity, and better systems
 
 ## Portfolio Section Guidance
 
