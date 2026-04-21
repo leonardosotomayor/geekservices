@@ -17,17 +17,19 @@ if (contactForm) {
     const name = String(formData.get("name") || "").trim();
     const email = String(formData.get("email") || "").trim();
     const business = String(formData.get("business") || "").trim();
+    const interest = String(formData.get("interest") || "").trim();
+    const biggestIssue = String(formData.get("biggest_issue") || "").trim();
     const message = String(formData.get("message") || "").trim();
 
-    const subject = encodeURIComponent(
-      `Consultation request from ${name || "website visitor"}`
-    );
+    const subject = encodeURIComponent("New Business Inquiry - Geek Services");
 
     const body = encodeURIComponent(
       [
         `Name: ${name}`,
         `Email: ${email}`,
         `Business: ${business || "Not provided"}`,
+        `Interest: ${interest || "Not provided"}`,
+        `Biggest issue right now: ${biggestIssue || "Not provided"}`,
         "",
         "What they need help with:",
         message,
@@ -38,7 +40,7 @@ if (contactForm) {
 
     if (formNote) {
       formNote.textContent =
-        "Your email app should open with the message ready to send. Next step: replace this with a real form backend.";
+        "Your email app should open with your inquiry ready to review and send. If you prefer, you can also use the consultation booking option above.";
     }
   });
 }
