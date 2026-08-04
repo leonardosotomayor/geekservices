@@ -3,6 +3,41 @@ const CONTACT_EMAIL = "leonardo@geekservicesny.com";
 const contactForm = document.querySelector("#contact-form");
 const emailLink = document.querySelector("#contact-email-link");
 const formNote = document.querySelector("#form-note");
+const siteHeader = document.querySelector(".site-header");
+
+const updateHeaderState = () => {
+  if (siteHeader) {
+    siteHeader.classList.toggle("is-scrolled", window.scrollY > 16);
+  }
+};
+
+updateHeaderState();
+window.addEventListener("scroll", updateHeaderState, { passive: true });
+
+const revealTargets = document.querySelectorAll(
+  ".section-heading, .signal-card, .metric-card, .starter-pack-card, .process-list li, .insight-preview-card, .reason-card, .booking-card, .contact-form, .founder-banner, .project-card, .skill-group, .featured-insight, .insight-card, .article-content, .article-cta"
+);
+
+if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  const revealObserver = new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { rootMargin: "0px 0px -8%", threshold: 0.08 }
+  );
+
+  revealTargets.forEach((target) => {
+    target.classList.add("reveal-ready");
+    revealObserver.observe(target);
+  });
+} else {
+  revealTargets.forEach((target) => target.classList.add("is-visible"));
+}
 
 if (emailLink) {
   emailLink.textContent = CONTACT_EMAIL;
