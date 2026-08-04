@@ -1,1 +1,4 @@
 .DS_Store
+
+.netlify/*
+!.netlify/results.md
