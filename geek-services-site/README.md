@@ -1,43 +1,7 @@
-# Geek Services LLC Starter Site
+# Geek Services website
 
-This folder contains the cleaned project sandbox and the first launch-ready website starter for Geek Services LLC.
+This directory contains the static website published by Netlify, including services, research, Albany and Yonkers location pages, founder information, articles, contact, and confirmation pages.
 
-## What this includes
+Shared templates and content are maintained in `../scripts/refresh_site.py`. Regenerate pages from the repository root with `python3 scripts/refresh_site.py`. Styles and browser interactions live in `styles.css` and `main.js`.
 
-- a filtered business brief in [`docs/master-brief.md`](./docs/master-brief.md)
-- homepage messaging in [`docs/website-content-foundation.md`](./docs/website-content-foundation.md)
-- a live-launch workflow in [`docs/live-launch-workflow.md`](./docs/live-launch-workflow.md)
-- launch guidance in [`docs/launch-best-practices.md`](./docs/launch-best-practices.md)
-- a static website starter in `index.html`, `styles.css`, and `main.js`
-
-## Why this starter is different
-
-The original AI-generated layout contained generic and invented content such as fake projects, fake experience, and fake testimonials. This starter removes those sections and instead focuses on:
-
-- real service positioning
-- local-business audience fit
-- practical website, marketing, and systems offers
-- a clear contact path
-- launch-friendly SEO basics like `robots.txt` and `sitemap.xml`
-
-## Preview locally
-
-Open `index.html` in a browser for a quick preview.
-
-## Before launch
-
-Confirm or update:
-
-1. the contact email in `main.js`
-2. domain setup for `geekservicesny.com`
-3. whether you want a real form backend, scheduling link, or both
-4. any final city or service-area wording
-
-## Recommended next build step
-
-Convert this static starter into the deployed production site with:
-
-- a real form backend
-- analytics
-- deployment hosting
-- optional scheduling integration
+The `docs/` directory contains historical planning material. Current positioning, operations, and launch requirements are described in the repository-root README and `../docs/launch-validation.md`.
